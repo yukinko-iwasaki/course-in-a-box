@@ -3,36 +3,77 @@ layout: index
 published: true
 ---
 
-Course-in-a-Box is a free tool for building and publishing online courses—no prior coding experience required. This guide was made using Course-in-a-Box, so what you see here is what you’ll start with. There are three modules that walk through the course creation process, all linked in the nav bar at the top of the page:
-* **[Setup](/modules/setup/getting-started/)** - Get your instance of Course-in-a-Box up and running
-* **[Content](/modules/content/markdown-and-media)** -  Update the course structure and add your copy & media
-* **[Customize](/modules/customize/favicon)** - Add some (optional) finishing touches
+This virtual course is designed for professionals responsible for managing field research. It is intended to improve the skills and knowledge of field research practitioners, familiarizing them with best practices, critical issues in research implementation, recurring challenges, and cutting-edge technologies. Through the course, participants will gain practical skills in preparing for field research, ensuring quality field research, and communication with a strong emphasis on data privacy and research ethics. By the end of the course, participants will have the skills they need to implement high-quality field research. 
+
+The expected time commitment is <b>15-20</b> hours (depending on familiarity with the topics) across the two weeks of the course. 
+
 
 <br> 
 
-#### Course-in-a-Box Courses We Love ❤️
-Here are some examples of Course-in-a-Box in the wild:
+## Course Outline
 
-* [We Are AI](https://dataresponsibly.github.io/we-are-ai/) by Center for Responsible AI
-* [How to Talk about Race](https://how-to-talk-about-race.p2pu.org/) by Amrita Patel and Denise LaForce
-* [Leveraging Learning for Life](https://leveraging-learning.p2pu.org/) by College Unbound
-* [Making and Learning](http://p2pu.github.io/makingandlearning/) by Children’s Museum of Pittsburgh
-* [Designing for Documentation and Assessment](https://playfulmit.github.io/beyond-rubrics/) by MIT Playful Journey Lab
-* [ExplOERer Course](http://www.exploerercourse.org/en/) by Gothenburg University, Open University, and CC Poland
-* [Learning about Learning Circles](https://p2pu.github.io/learning-about-learning-circles/) by P2PU
-* [Queer Cinema for High School](https://queercinema.net/) by Sarah Schrag
+<details><summary>Module 0: Introduction</summary>
 
-<br> 
+    {{ "* Introduction to course: Conducting reproducible, transparent, and credible field research <br>
+    Live Opening Session on 7th June at 9am EDT/GMT -4
+    <br>
+    <u>Recording Link</u>
+    <br>
+    <u>Session Slides</u>" | markdownify }}
+    
 
-#### Need some help?
-Our [community forum](https://community.p2pu.org/c/tech/course-in-a-box/78) is a great place to ask questions or find help when you get stuck. Feel free to post there anytime!
+</details>
 
-You can also hire P2PU to provide support with learning design, technical setup, course customizations, or web hosting. If you’re interested in collaborating on a project, reach out to us at thepeople@p2pu.org
 
-<br> 
+<details><summary>Module 1: Preparing for Impactful Field Research</summary>
 
-#### About Course-in-a-Box
+    {{ "* Establishing a measurement framework"| markdownify }}
+    {{ "* Protecting privacy" | markdownify }}
+    {{ "* Research ethics"| markdownify }}
 
-P2PU created Course-in-a-Box in 2014 as a free and lightweight tool for building online courses. We wanted to preserve the modular structure of MOOCs outside of the bulky (and often proprietary) environment of learning/content management systems. Course-in-a-Box is open-source, and we welcome contributions [on our Github repo](https://github.com/p2pu/course-in-a-box).
+    
+</details>
 
-p.s. Designing a course for learning circles? [Check out the Learning Circle Course Creation guide](https://docs.p2pu.org/courses/creating-courses) for some best practices on course design.
+
+<details><summary>Module 2: Ensuring Impactful Field Research</summary>
+
+    {{ "* Monitoring implementation fidelity"| markdownify }}
+    {{ "* Capacity building for policymakers" | markdownify }}
+    {{ "* Panel discussion: Maximizing Policy Impact of Field Research"| markdownify }}
+
+    
+</details>
+
+
+<details><summary>Module 3: Ensuring Impactful Field Research</summary>
+
+    {{ "* Monitoring implementation fidelity"| markdownify }}
+    {{ "* Capacity building for policymakers" | markdownify }}
+    {{ "* Panel discussion: Maximizing Policy Impact of Field Research"| markdownify }}
+
+    
+</details>
+
+## Course Navigation Guide
+The course is organized by 5 modules with a number of topics within each module. Each topic within a module has a set of required readings, a lecture recording and corresponding slides. We suggest you read the required readings and watch the lectures in order of the topics listed in each corresponding tab. After completing the required readings and watching the lectures of all the topics in the module, you can proceed to take the module quiz. We recommend taking the module quiz after completing all the readings and watching all the lectures in the respective module. 
+
+You will need your participant ID to take the quizzes, if you do not remember it, you can use this form to find it. 
+
+You can track your progress through this tracking sheet.
+
+## Course Requirements
+In order to successfully complete the course and receive a course certificate, you need to fulfil the following requirements:
+
+Complete the course baseline knowledge test by 7th June at 9 am EDT/ GMT -4
+Complete all 5 module quizzes by 21st June at 11:59 PM EDT/GMT -4 with an average score of 80% across all quizzes
+Complete the course endline knowledge test by 26th June at 11:59 PM EDT/GMT -4
+
+
+## Office Hours
+We will be hosting drop-in office hours for anyone who has any questions about the course materials or anyone who needs any assistance with the course content.
+#### Office Hour 1
+12-Jun-23 9-10am
+
+#### Office Hour 2
+12-Jun-23 9-10am
+

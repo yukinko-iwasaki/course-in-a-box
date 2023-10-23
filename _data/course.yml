@@ -1,3 +1,21 @@
-title: Course-in-a-Box
-description: An open-source project for creating online courses, built by <a href="https://www.p2pu.org">P2PU</a>
-modules: ["setup", "content", "customize"]
+title: ""
+description: ""
+modules: [module1, module2, module3, module4,module5, FAQs]
+
+
+links:
+
+- title: Overview
+  url: index.html
+
+- title: "Course Outline"
+  url: "#course-outline"
+
+- title: "Course Navigation"
+  url: "#course-navigation-guide"
+ 
+- title: "Course Requirements"
+  url: "#course-requirements"
+
+- title: "Office Hours"
+  url: "#office-hours"

@@ -30,7 +30,7 @@ body {
 
 .jumbotron {
 	background: 
-    url('../#{$jumbotron-mask}') repeat, 
+    // url('../#{$jumbotron-mask}') repeat, 
     url('../#{$jumbotron-image}') center/$jumbotron-image-size $jumbotron-color;
 	color: $white;
   text-shadow: 5px 5px 10px $gray-darker;
@@ -279,3 +279,22 @@ footer {
     transition: all 0.3s linear;
   }
 }
+
+.home-content {
+  display: flex;
+  flex-direction: row;
+  ul {
+    list-style: none;
+    font-size: medium;
+  }
+  .side-bar {
+    min-width: 20%;
+    position: sticky;
+    height: fit-content;
+    top: 0;
+    padding: 10px;
+    right: 0;
+    min-width: 15vw;
+  }
+}
+
