@@ -1,5 +1,5 @@
 body {
-	background-color: white;
+	background-color: #F3F6F9;
   h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
   }
@@ -16,6 +16,17 @@ body {
     color: rgba(255, 255, 255, 0.8);
     text-transform: uppercase;
   }
+
+  .collapse {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+  }
+  .right-menu{
+    margin-bottom: 0;
+    border-left: 1px solid grey;
+  }
 }
 
 .nav-item.active, .nav-item:hover {
@@ -29,23 +40,15 @@ body {
 }
 
 .jumbotron {
-	background: 
-    // url('../#{$jumbotron-mask}') repeat, 
-    url('../#{$jumbotron-image}') center/$jumbotron-image-size $jumbotron-color;
+  padding: 0 !important;
+  height: 35vh;
+  width: 100vw;
 	color: $white;
-  text-shadow: 5px 5px 10px $gray-darker;
 
-	a {
-		color: #fcfcfc;
-		border-bottom: 1px dotted;
-		text-decoration: none;
-		transition: all 0.3s linear;
-	}
-	a:hover, a:focus {
-		border-bottom: none;
-		text-decoration: none;
-	}
-
+  img {
+    width: inherit;
+    height: inherit;
+  }
 }
 
 .jumbotron header h1 {
@@ -282,19 +285,112 @@ footer {
 
 .home-content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   ul {
     list-style: none;
     font-size: medium;
   }
+
   .side-bar {
-    min-width: 20%;
-    position: sticky;
-    height: fit-content;
-    top: 0;
-    padding: 10px;
-    right: 0;
-    min-width: 15vw;
+    visibility: collapse !important;
+    width: 0;
+  }
+
+
+  @media screen and (min-width: 600px){
+    .side-bar {
+      visibility: inherit;
+      position: sticky;
+      height: fit-content;
+      top: 0;
+      padding: 10px;
+      right: 0;
+    }
   }
 }
 
+.collapsible {
+  background-color: white;
+  padding: 10px;
+  margin: 2px;
+  width: 100%;
+  min-height: 50px;
+  box-shadow: 2px 2px 3px #c29cc9;
+  i {
+    color: purple;
+    font-size: xx-large;
+  }
+
+  .collapsibile-title {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: x-large;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .collapsible-content {
+    padding: 10px;
+    border-top: 1px solid #c29cc9;
+  }
+}
+
+.collapsible:not(.active){
+  .collapsible-content {
+    display: none;
+  }
+}
+
+.collapsible .active{
+  .collapsible-contnent {
+    display: block;
+  }
+}
+
+.collasible-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.module_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.module {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+
+  img {
+    height: 100%;
+  }
+}
+
+.announcement {
+  display: block;
+  padding: 10px;
+  min-height: 80px;
+  margin: 5px;
+  background-color: #feff9c;
+  border-radius: 10px;
+  color: black;
+  border: 1px solid red;
+}
+
+.announcement:not(.active) {
+  display: none;
+}
+
+.description {
+  font-size: small;
+  b {
+    font-size: medium;
+  }
+}

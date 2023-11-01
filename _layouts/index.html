@@ -1,25 +1,19 @@
 ---
 layout: base
 ---
-
 <!-- Banner -->
-<div class="jumbotron jumbotron-fluid">
-	<div class="container text-center">
-		<h1>{{ site.data.course.title }}</h1>
-    <p class="lead">{{site.data.course.description}}</p>
-
-	</div>
+<div class="jumbotron">
+<img src="../img/example-jumbotron.png" />
 </div>
 <div class="home-content">
-	<div class="row">
+	{% include announcement.html %}
+	{% include collapsible.html %}
+	<!-- <div class="row">
 		<div class="col-lg-8 offset-lg-2">
 			<section>
 				{{ content }}
 			</section>
 		</div>
-	</div>
-	<div class="side-bar" >
-		{% include side_list_link.html %}
-	</div>	
+	</div> -->
 </div>
 
