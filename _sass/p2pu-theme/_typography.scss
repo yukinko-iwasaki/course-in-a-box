@@ -3,7 +3,6 @@ body {
   font-size: 18px;
 
   a {
-    color: $p2pu-blue;
 
     &.light {
       color: $white;
@@ -155,10 +154,6 @@ body {
       margin-bottom: 0;
     }
   }
-}
-
-.blue-text {
-  color: $p2pu-blue;
 }
 
 .green-text {

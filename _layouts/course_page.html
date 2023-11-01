@@ -2,6 +2,7 @@
 layout: base
 ---
 {% assign module=page.categories[1] %}
+
 <div class="container-fluid d-flex flex-grow-1 flex-column">
   <div class="row flex-grow-1">
 		{% include side_toolbar.html %}
@@ -21,13 +22,22 @@ layout: base
 				{% endif %}
 					</div>
 				{% if next %}
-					<div class="pagination-section text-sm-right col-sm-6">
+			<div class="pagination-section text-sm-right col-sm-6">
 						<div class="title">
 							Next submodule:
 						</div>
 						<a rel="next" class="next" href="{{ site.baseurl }}{{ next.url }}"> {{ next.title }}
 						</a>
+					</div>		
+			 	{% else %}
+				 <div class="pagination-section text-sm-right col-sm-6">
+					{% include next_in_module.html %}
+					<div class="title">
+						Next module:
 					</div>
+					<a rel="next" class="next" href="{{ site.baseurl }}{{ next_post.url }}"> {{ next }}
+					</a>
+				</div>
 				{% endif %}
         </div>
 			</div>

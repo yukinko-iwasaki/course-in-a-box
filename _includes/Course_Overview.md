@@ -1,6 +1,3 @@
-This virtual course is designed for professionals responsible for managing field research. 
-<br>
-It is intended to improve the skills and knowledge of field research practitioners, familiarizing them with best practices, critical issues in research implementation, recurring challenges, and cutting-edge technologies.
-<br />Through the course, participants will gain practical skills in preparing for field research, ensuring quality field research, and communication with a strong emphasis on data privacy and research ethics. By the end of the course, participants will have the skills they need to implement high-quality field research. 
-
-The expected time commitment is <b>15-20</b> hours (depending on familiarity with the topics) across the two weeks of the course. HELLO!
+This course teaches best practices for reproducible analytics, from data processing to publication. Participants will learn to implement transparent and reproducible workflows, to effectively code in a team environment, and to keep personal data secure throughout the lifecycle of a research project. The course will teach participants best practices of how to work with data once acquired - cleaning raw datasets, creating indicators, analyzing the data and exporting tables and graphs reproducibly.
+<br/>
+The course is fully <b>virtual and self-paced and will run from 29th November to 13th December, 2023</b>. It will use a combination of pre-recorded lectures, live Q&A sessions, and quizzes. The course will not require use of statistical software; however, participants will have access to optional practice exercises in Stata and R. The expected time commitment for the course is 20 hours over the course of the two weeks.

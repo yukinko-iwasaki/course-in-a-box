@@ -2,7 +2,7 @@
 {% for element in site.data.index.collapsibles %}
 <div class="collapsible" >
     <div class="collapsibile-title">
-        {{element}}
+        {{element | replace: "_", " " }}
         <i class="fa fa-angle-down"></i>
     </div>
     <div class="collapsible-content" >

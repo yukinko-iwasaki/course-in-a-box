@@ -29,7 +29,7 @@ function addCollapsibles() {
 
 function addAnnouncement(){
     const announce = document.getElementsByClassName("announcement");
-    const accounceDate = new Date('2023-10-30 GMT-0500').toDateString()
+    const accounceDate = new Date('2023-11-01 GMT-0500').toDateString()
     if (announce){
         const today = new Date().toDateString();
         if(today === accounceDate){
