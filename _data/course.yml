@@ -1,7 +1,7 @@
 title: ""
 description: ""
-modules: [module1, module2, module3, module4,module5, FAQs]
-
+modules: [module1, module2, module3, module4,module5]
+rightNav: [ HOME, FAQs]
 
 links:
 
