@@ -39,16 +39,16 @@ agenda:
     sub-modules: ["Overview","Statistical Programming 101",
      "Structuring Data Work Effectively & Efficiently",
      Handling personal data safely", 
-     "Quize", "Optional Activity"]
+     "Quiz", "Optional Activity"]
   module2:
     title: "SET UP DATA FOR REPRODUCIBILE ANALYTICS"
     img: "img/2.png"
-    sub-modules: ["Overview", "Tidying Data", "Cleaning Data", "Constructing Indicators","Quize", "Optional Activity"]
+    sub-modules: ["Overview", "Tidying Data", "Cleaning Data", "Constructing Indicators","Quiz", "Optional Activity"]
   module3:
     title: "ANALYZE DATA EFFICIENTLY & TRANSPARENTLY"
     img: "img/3.png"
-    sub-modules: ["Overview","Analyzing Data", "Best Practices for Reproducible Outputs","Quize","Optional Activity"]
+    sub-modules: ["Overview","Analyzing Data", "Best Practices for Reproducible Outputs","Quiz","Optional Activity"]
   module4:
     title: "Moving Beyond Basics: Advanced Concepts and Practical Applications"
     img: "img/4.png"
-    sub-modules: ["Overview","Ensuring Data Quality", "Special Considerations for Administrative Data", "Closing and analytics resources", "Quize", "Optional Activity"]
+    sub-modules: ["Overview","Ensuring Data Quality", "Special Considerations for Administrative Data", "Closing and analytics resources", "Quiz", "Optional Activity"]

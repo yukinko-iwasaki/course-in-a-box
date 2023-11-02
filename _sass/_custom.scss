@@ -12,9 +12,11 @@ body {
 }
 
 .navbar {
+  background: #7e2c93 !important;
+  border-bottom: solid 1px white;
   a, .nav-link, button {
     color: rgba(255, 255, 255, 0.8);
-    text-transform: uppercase;
+    text-transform: uppercase;    
   }
 
   .collapse {
@@ -30,7 +32,7 @@ body {
 }
 
 .nav-item.active, .nav-item:hover {
-  background-color: #707782;
+  background-color: #a76cad;
 	transition: all 0.3s linear;
 }
 
@@ -323,7 +325,7 @@ footer {
   margin: 2px;
   width: 100%;
   min-height: 50px;
-  box-shadow: 2px 2px 3px #c29cc9;
+  box-shadow: 1px 2px 6px grey;
   i {
     color: purple;
     font-size: xx-large;
@@ -341,7 +343,7 @@ footer {
 
   .collapsible-content {
     padding: 10px;
-    border-top: 1px solid #c29cc9;
+    border-top: 1px solid lightgrey;
   }
 }
 
@@ -385,7 +387,7 @@ footer {
   padding: 10px;
   min-height: 80px;
   margin: 5px;
-  background-color: #feff9c;
+  background-color: #c29cc9;
   border-radius: 10px;
   color: black;
   opacity: 0.8;
@@ -393,7 +395,8 @@ footer {
   .update {
     font-size: large;
     text-decoration: underline;
-    color: red;
+    color: black;
+    font-weight: bold;
   }
   ul {
     margin: 10px;
@@ -412,8 +415,24 @@ footer {
 }
 
 .Quizzes {
-  .Quize-List {
+  .Quiz-List {
     text-decoration: underline;
-    margin: 10px;
+  }
+}
+
+.List {
+  margin: 10px;
+}
+
+.Quiz {
+  display: flex;
+  justify-content: center;
+  height: 25vh;
+  align-items: center;
+  button {
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    box-shadow: grey 2px 1px 1px;
   }
 }
