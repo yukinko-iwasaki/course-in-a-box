@@ -12,6 +12,9 @@ body {
 }
 
 .navbar {
+  position: sticky;
+  top: 0px;
+  z-index: 2;
   background: #7e2c93 !important;
   border-bottom: solid 1px white;
   a, .nav-link, button {
@@ -76,6 +79,10 @@ ul.square {
     max-width: 100%;
 }
 
+iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
 blockquote {
   padding: 1.2em;
   margin: 0;
