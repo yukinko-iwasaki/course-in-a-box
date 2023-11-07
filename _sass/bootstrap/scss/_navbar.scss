@@ -204,6 +204,7 @@
 
           // Changes flex-bases to auto because of an IE10 bug
           flex-basis: auto;
+          justify-content: space-between;
         }
 
         .navbar-toggler {

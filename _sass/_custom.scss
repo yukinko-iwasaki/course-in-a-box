@@ -17,17 +17,12 @@ body {
   z-index: 2;
   background: #7e2c93 !important;
   border-bottom: solid 1px white;
+  min-height: 50px;
   a, .nav-link, button {
     color: rgba(255, 255, 255, 0.8);
     text-transform: uppercase;    
   }
 
-  .collapse {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  
-  }
   .right-menu{
     margin-bottom: 0;
     border-left: 1px solid white;
