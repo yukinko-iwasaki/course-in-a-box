@@ -1,6 +1,6 @@
 title: "test"
 description: ""
-modules: [module1, module2, module3, module4]
+modules: [introduction, module1, module2, module3, module4, epilogue]
 rightNav: [ HOME, FAQs]
 
 links:
@@ -14,8 +14,8 @@ links:
 - title: "Course Navigation"
   url: "#course-navigation-guide"
  
-- title: "Course Requirements"
-  url: "#course-requirements"
+- title: "Course Certificate"
+  url: "#course-certificate"
 
 - title: "Office Hours"
   url: "#office-hours"
@@ -32,6 +32,10 @@ Quizzes:
     url: "https://survey.wb.surveycto.com/collect/login.html?nextUrl=%2Fcollect%2Fmsfr23_m1_quiz"
 
 agenda:
+  introduction:
+    title: "Live Opening Session"
+    url: "live_session.html"
+    img: "img/0.png"
   module1:
     title: "REPRODUCIBLE & SECURE WORKFLOWS FROM THE START"
     img: "img/1.png"
@@ -52,3 +56,7 @@ agenda:
     title: "Moving Beyond Basics: Advanced Concepts and Practical Applications"
     img: "img/4.png"
     sub-modules: ["Overview","Ensuring Data Quality", "Special Considerations for Administrative Data", "Closing and analytics resources", "Quiz", "Optional Activity"]
+  epilogue:
+    title: "Live Closing Session"
+    url: "live_session.html"
+    img: "img/5.png"

@@ -5,7 +5,7 @@
         {% assign agenda =site.data.course.agenda[module]%}
         {% assign first_post = site.categories[module]|reverse|first %}
         <div class="module">
-
+            
             <a href="{{ site.baseurl }}{{ first_post.url }}">
                 <img src={{agenda.img}}>
             </a>

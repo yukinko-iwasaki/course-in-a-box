@@ -9,11 +9,13 @@
     <ul class="navbar-nav">
       {% for module in site.data.course.modules %}
        {% assign first_post = site.categories[module]|reverse|first %}
-       <li class="nav-item py-2{% if page.categories[1] == module %} active{% endif %}">
-         <a class="nav-link" href="{{ site.baseurl }}{{ first_post.url }}">
-           {{ module }}
-         </a>
-       </li>
+        {% if module contains "module" %}
+          <li class="nav-item py-2{% if page.categories[1] == module %} active{% endif %}">
+            <a class="nav-link" href="{{ site.baseurl }}{{ first_post.url }}">
+              {{ module }}
+            </a>
+          </li>
+        {% endif %}
       {% endfor %}
 <!--
       <li class="nav-item py-2">
@@ -23,7 +25,9 @@
     </ul>
     <ul class="navbar-nav right-menu">
       <li class="'nav-item">    <a class="nav-link" href="{{site.baseurl}}/">HOME </a> </li>
-   <li class="nav-item"> <a class="nav-link" href="{{site.baseurl}}/FAQs">FAQs </a></li>
+      <li class="nav-item"> <a class="nav-link" href="{{site.baseurl}}/FAQs">FAQs </a></li>
+      <li class="nav-item"> <a class="nav-link" href="{{site.baseurl}}/About">About Us </a></li>
+
     </ul>
   </div>
 </nav>
