@@ -1,6 +1,6 @@
 title: "test"
 description: ""
-modules: [introduction, module1, module2, module3, module4, epilogue]
+modules: [ module1, module2, module3, module4]
 rightNav: [ HOME, FAQs]
 
 links:

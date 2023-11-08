@@ -15,7 +15,7 @@ body {
   position: sticky;
   top: 0px;
   z-index: 2;
-  background: #7e2c93 !important;
+  background: #B66DB6 !important;
   border-bottom: solid 1px white;
   min-height: 50px;
   a, .nav-link, button {
@@ -35,7 +35,11 @@ body {
 }
 
 ul.square {
+  margin: 10px;
   list-style-type: square !important;
+  a {
+    color: #B66DB6 !important;
+  }
 }
 
 .nav-link{
@@ -43,6 +47,52 @@ ul.square {
   padding-right: 1em !important;
 }
 
+.Title {
+  background: #800280;
+  margin-bottom: 0 !important;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 200px;
+  padding-top: 20px;
+
+  .logos{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  .logo {
+    height: 50px;
+    img {
+      height: 100%;
+    }
+  }
+
+
+  .text {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .SubTitle{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    line-height: 15px;
+    min-width: 350px;
+
+  }
+  .date {
+    padding-top: 10px;
+    line-height: 2px;
+    text-align: center;
+    font-size: medium;
+    min-width: 350px;
+  }
+
+
+}
 .jumbotron {
   padding: 0 !important;
   height: 25vh;
@@ -110,9 +160,12 @@ section {
 }
 
 .sidebar {
-	background-color: $gray-lighter;
+	background-color: #F6EAF6;
   font-size: 15px;
   padding-bottom: 10px;
+  a {
+    color: #800280;
+  }
 }
 
 .sidebar ul {
@@ -159,6 +212,10 @@ section {
 }
 
 .pagination-section {
+  a {
+    color: #800280 !important;
+  }
+
 	.next, .prev {
 		text-transform: uppercase;
 	}
@@ -346,12 +403,16 @@ footer {
     justify-content: space-between;
     font-size: x-large;
     padding: 10px;
+    color: #800280;
     cursor: pointer;
   }
 
   .collapsible-content {
     padding: 10px;
     border-top: 1px solid lightgrey;
+    b {
+      color: #800280;
+    }
   }
 }
 
@@ -383,16 +444,35 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100%;
+    width: 45%;
     min-height: 200px;
-
+    margin: 10px;
+    padding: 10px;
+    box-shadow: #800280 4px 1px 5px;
   
     a {
       img {
-        width: 200px;
+        width: 150px;
       }
     }
   
+  }
+}
+
+.syllabus {
+  display: flex;
+  justify-content: center;
+  min-height: 200px;
+
+
+  .LiveSession {
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: #800280 4px 1px 5px;
+  }
+  img{
+    width: 150px;
   }
 }
 
@@ -432,7 +512,8 @@ footer {
 }
 
 .description {
-  font-size: small;
+  align-self: flex-start;
+  font-size: 14px;
   b {
     font-size: medium;
   }
