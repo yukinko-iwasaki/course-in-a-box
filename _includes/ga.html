@@ -7,9 +7,6 @@
   {% if site.ga_tracking_code %}
     ga('create', '{{site.ga_tracking_code}}', 'auto');
   {% endif %}
-  {% if site.p2pu_ga_tracking_code %}
-    ga('create', '{{site.p2pu_ga_tracking_code}}', 'auto', {'name': 'p2puTracker'} );
-  {% endif %}
   {% if site.ga_tracking_code %}
     ga('send', 'pageview');
   {% endif %}
