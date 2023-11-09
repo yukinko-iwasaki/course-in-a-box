@@ -5,9 +5,6 @@ function onLoad(){
     addAnnouncement();
 }
     
-
-
-
 function addCollapsibles() {
     const collapsibles = document.getElementsByClassName("collapsibile-title");
 
@@ -49,6 +46,7 @@ function addAnnouncement(){
         }
     }
     const announceElement = document.getElementsByClassName("announcement");
+    if (announceElement.length === 0) return;
 
     for (const key in ANNOUNCEMENTS){
         const announce = ANNOUNCEMENTS[key]
