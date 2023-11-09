@@ -27,6 +27,11 @@ body {
     margin-bottom: 0;
     border-left: 1px solid white;
   }
+  @media only screen and (max-width: 700px){
+    .right-menu{
+      border-left: none;
+    }
+  }
 }
 
 .nav-item.active, .nav-item:hover {
@@ -372,7 +377,7 @@ footer {
   }
 
 
-  @media screen and (min-width: 600px){
+  @media screen and (min-width: 700px){
     .side-bar {
       visibility: inherit;
       position: sticky;
@@ -441,6 +446,7 @@ footer {
   margin: 20px;
 
   .module {
+    border-radius: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -452,6 +458,7 @@ footer {
   
     a {
       display: flex;
+      align-items: center;
       img {
         height: 50px;
       }
@@ -471,9 +478,11 @@ footer {
   display: flex;
   justify-content: center;
   min-height: 200px;
+  margin: 20px;
 
 
   .LiveSession {
+    border-radius: 10px;
     width: 45%;
     margin: 10px;
     padding: 10px;
@@ -482,9 +491,14 @@ footer {
     justify-content: center;
     align-items: center;
   }
+  a {
+    display: flex;
+    align-items: center;
+  }
   img{
     height: 50px;
   }
+
   @media only screen and (max-width: 700px) {
     .LiveSession {
       width: 100%;
@@ -496,7 +510,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .module {
     img{
       display: none;
@@ -534,6 +548,7 @@ footer {
 .description {
   align-self: flex-start;
   font-size: 14px;
+  overflow: auto;
   b {
     font-size: medium;
   }
