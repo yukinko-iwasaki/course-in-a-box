@@ -1,7 +1,8 @@
 <div class="syllabus">
         <div class="LiveSession">
+         <a href="{{ site.baseurl }}/LiveSession">
             <img src="../img/0.png">
-            <a href="{{ site.baseurl }}{{ first_post.url }}"><b> OPENING SESSION </b><br/></a>
+           <b> OPENING SESSION </b><br/></a>
         </div>
 </div>
 <div class="module_container">
@@ -34,8 +35,10 @@
         {% endfor %}
 </div>
 <div class="syllabus">
-        <div class="LiveSession">
+        <div class="LiveSession">     
+            <a href="{{ site.baseurl }}/LiveSession">
             <img src="../img/5.png">
-            <a href="{{ site.baseurl }}{{ first_post.url }}"><b> CLOSING SESSION </b><br/></a>
+                <b> CLOSING SESSION </b><br/>
+                </a>
         </div>
 </div>
