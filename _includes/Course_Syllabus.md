@@ -1,7 +1,7 @@
 <div class="syllabus">
         <div class="LiveSession">
          <a href="{{ site.baseurl }}/LiveSession">
-            <img src="img/0.png">
+            <img src="/img/0.png">
            <b> OPENING SESSION </b><br/></a>
         </div>
 </div>
@@ -37,7 +37,7 @@
 <div class="syllabus">
         <div class="LiveSession">     
             <a href="{{ site.baseurl }}/LiveSession">
-            <img src="img/5.png">
+            <img src="/img/5.png">
                 <b> CLOSING SESSION </b><br/>
                 </a>
         </div>
