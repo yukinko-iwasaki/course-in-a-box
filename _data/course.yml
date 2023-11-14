@@ -38,6 +38,7 @@ agenda:
     img: "img/opening.png"
   module1:
     title: "REPRODUCIBLE & SECURE WORKFLOWS FROM THE START"
+    index: 1
     img: "img/module-1.png"
     url: course_page.html
     sub-modules: ["Overview","Statistical Programming 101",
@@ -46,14 +47,17 @@ agenda:
      "Quiz", "Optional Activity"]
   module2:
     title: "SET UP DATA FOR REPRODUCIBILE ANALYTICS"
+    index: 2 
     img: "img/module-2.png"
     sub-modules: ["Overview", "Tidying Data", "Cleaning Data", "Constructing Indicators","Quiz", "Optional Activity"]
   module3:
     title: "ANALYZE DATA EFFICIENTLY & TRANSPARENTLY"
+    index: 3
     img: "img/module-3.png"
     sub-modules: ["Overview","Analyzing Data", "Best Practices for Reproducible Outputs","Quiz","Optional Activity"]
   module4:
     title: "Moving Beyond Basics: Advanced Concepts and Practical Applications"
+    index: 4
     img: "img/module-4.png"
     sub-modules: ["Overview","Ensuring Data Quality", "Special Considerations for Administrative Data", "Closing and analytics resources", "Quiz", "Optional Activity"]
   epilogue:

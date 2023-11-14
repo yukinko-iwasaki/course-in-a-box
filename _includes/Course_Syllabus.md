@@ -17,7 +17,7 @@
             <div class = "description">
                 <a href="{{ site.baseurl }}{{ first_post.url }}">
                     <img src="{{ site.baseurl }}/{{agenda.img}}">
-                    <div><b>{{agenda.title}} </b><br/> </div></a>
+                    <div class="module_title"><b>Module {{agenda.index}}</b> <br/><b>{{agenda.title}} </b><br/> </div></a>
                 <ul class="square">
                     {% for sub_module in agenda.sub-modules %}
                         {% if forloop.last == true %}
