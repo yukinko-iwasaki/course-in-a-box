@@ -1,7 +1,7 @@
 <div class="syllabus">
         <div class="LiveSession">
          <a href="{{ site.baseurl }}/LiveSession">
-            <img src="/img/0.png">
+            <img src="{{ site.baseurl }}/img/0.png">
            <b> OPENING SESSION </b><br/></a>
         </div>
 </div>
@@ -16,7 +16,7 @@
             </a> -->
             <div class = "description">
                 <a href="{{ site.baseurl }}{{ first_post.url }}">
-                    <img src={{agenda.img}}>
+                    <img src="{{ site.baseurl }}/{{agenda.img}}">
                     <div><b>{{agenda.title}} </b><br/> </div></a>
                 <ul class="square">
                     {% for sub_module in agenda.sub-modules %}
@@ -37,7 +37,7 @@
 <div class="syllabus">
         <div class="LiveSession">     
             <a href="{{ site.baseurl }}/LiveSession">
-            <img src="/img/5.png">
+            <img src="{{ site.baseurl }}/img/5.png">
                 <b> CLOSING SESSION </b><br/>
                 </a>
         </div>

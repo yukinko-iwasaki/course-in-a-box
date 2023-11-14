@@ -68,7 +68,19 @@ ul.square {
   flex-direction: column;
   color: white;
   height: 200px;
-  padding-top: 20px;
+
+
+  .main-image{      
+    content: $jumbotron-image-mobile;
+    height: 100%;
+  } 
+
+  @media screen and (min-width: 600px) {      
+    .main-image{        
+      content: $jumbotron-image;
+      height: 100%;
+    } 
+  } 
 
   .logos{
     display: flex;
