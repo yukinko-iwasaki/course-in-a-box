@@ -1,2 +1,2 @@
-Optional Activity
-Coming up soon!
+{% assign module = "module3" %}
+{% include Optional_Activity.html %}

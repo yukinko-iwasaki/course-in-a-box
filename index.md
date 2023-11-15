@@ -16,7 +16,7 @@ The expected time commitment is <b>15-20</b> hours (depending on familiarity wit
 <details><summary>Module 0: Introduction</summary>
 
     {{ "* Introduction to course: Conducting reproducible, transparent, and credible field research <br>
-    Live Opening Session on 7th June at 9am EDT/GMT -4
+    Live Opening Session on 7th June at 9am ET/GMT -4
     <br>
     <u>Recording Link</u>
     <br>
@@ -65,9 +65,9 @@ You can track your progress through this tracking sheet.
 ## Course Requirements
 In order to successfully complete the course and receive a course certificate, you need to fulfil the following requirements:
 
-Complete the course baseline knowledge test by 7th June at 9 am EDT/ GMT -4
-Complete all 5 module quizzes by 21st June at 11:59 PM EDT/GMT -4 with an average score of 80% across all quizzes
-Complete the course endline knowledge test by 26th June at 11:59 PM EDT/GMT -4
+Complete the course baseline knowledge test by 7th June at 9 am ET/ GMT -4
+Complete all 5 module quizzes by 21st June at 11:59 PM ET/GMT -4 with an average score of 80% across all quizzes
+Complete the course endline knowledge test by 26th June at 11:59 PM ET/GMT -4
 
 
 ## Office Hours
