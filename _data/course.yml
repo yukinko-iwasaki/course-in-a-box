@@ -68,7 +68,7 @@ agenda:
      Handling personal data safely", 
      "Quiz", "Optional Activity"]
   module2:
-    title: "SET UP DATA FOR REPRODUCIBILE ANALYTICS"
+    title: "SET UP DATA FOR REPRODUCIBLE ANALYTICS"
     index: 2 
     img: "img/module-2.png"
     sub-modules: ["Overview", "Tidying Data", "Cleaning Data", "Constructing Indicators","Quiz", "Optional Activity"]
@@ -78,7 +78,7 @@ agenda:
     img: "img/module-3.png"
     sub-modules: ["Overview","Analyzing Data", "Best Practices for Reproducible Outputs","Quiz","Optional Activity"]
   module4:
-    title: "Moving Beyond Basics: Advanced Concepts and Practical Applications"
+    title: 'MOVING BEYOND BASICS: ADVANCED CONCEPTS AND PRACTICAL APPLICATIONS'
     index: 4
     img: "img/module-4.png"
     sub-modules: ["Overview","Ensuring Data Quality", "Special Considerations for Administrative Data", "Closing and analytics resources", "Quiz", "Optional Activity"]
@@ -86,3 +86,5 @@ agenda:
     title: "Live Closing Session"
     url: "live_session.html"
     img: "img/closing.png"
+
+
