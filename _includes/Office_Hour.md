@@ -11,4 +11,4 @@ Join from the  <a target="_blank" href={{site.data.course.LiveSessions.admin_off
 <b>TECHNICAL OFFICE HOUR</b>
 <br/>
 Starts at <b>December 6 2023,  9:30am - 10:30am (ET)</b></br>
-Join from the <a target="_blank" href={{site.data.course.LiveSessions.tech_office_hour.link}}>link</a><br/>
+Join from the <a target="_blank" href={{site.data.course.LiveSessions.technical_office_hour.link}}>link</a><br/>

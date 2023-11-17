@@ -3,23 +3,6 @@ description: ""
 modules: [ module1, module2, module3, module4]
 rightNav: [ HOME, FAQs]
 
-links:
-
-- title: Overview
-  url: index.html
-
-- title: "Course Outline"
-  url: "#course-outline"
-
-- title: "Course Navigation"
-  url: "#course-navigation-guide"
- 
-- title: "Course Certificate"
-  url: "#course-certificate"
-
-- title: "Office Hours"
-  url: "#office-hours"
-
 
 Quizzes:
   baseline:
@@ -32,28 +15,12 @@ Quizzes:
     url: "https://survey.wb.surveycto.com/collect/rrf23_m3_quiz?caseid="
   module4:
     url: "https://survey.wb.surveycto.com/collect/rrf23_m4_quiz?caseid="
+  endline: 
+    url: &endline "https://survey.wb.surveycto.com/collect/endline_rrf23?caseid="
 
 OptionalsActivities:
-  module1: 
-    StataPrimary: 'testestes'
-    RPrimary: 'testest'
-    StataSecondary: 'testestest'
-    RSecondary: 'testtest'
-  module2: 
-    StataPrimary: 'testestes'
-    RPrimary: 'testest'
-    StataSecondary: 'testestest'
-    RSecondary: 'testtest'
-  module3:
-    StataPrimary: 'testtest'
-    RPrimary: 'testest'
-    StataSecondary: 'testestest'
-    RSecondary: 'testtest'
-  module4:
-    StataPrimary: 'testtest'
-    RPrimary: 'testest'
-    StataSecondary: 'testestest'
-    RSecondary: 'testtest'
+  PrimaryData: https://osf.io/e94a7/
+  SecondaryData: https://osf.io/zrbcq/
 
 agenda:
   introduction:
@@ -65,25 +32,64 @@ agenda:
     index: 1
     img: "img/module-1.png"
     url: course_page.html
-    sub-modules: ["Overview","Statistical Programming 101",
-     "Structuring Data Work Effectively & Efficiently",
-     Handling personal data safely", 
-     "Quiz", "Optional Activity"]
+    sub_modules: 
+      "Overview":
+      "Statistical Programming 101": 
+        slide: "https://osf.io/jnurw"
+        youtube: "https://www.youtube.com/embed/voBCFp1hIzs?si=aX_ru_ZdHyAHZDJN"
+      "Structuring Data Work Effectively & Efficiently":
+        slide: "https://osf.io/nrazx"
+        youtube: "https://www.youtube.com/embed/swG8GD2s4Oo?si=4xwwvkQ1DzaRHRAy"
+      "Handling personal data safely":
+        slide: "https://osf.io/drpy3"
+        youtube: https://www.youtube.com/embed/IgA0B5wkiFo?si=-l-6xaSNljRtJVhk
+      "Quiz":
+      "Optional Activity":
   module2:
     title: "SET UP DATA FOR REPRODUCIBLE ANALYTICS"
     index: 2 
     img: "img/module-2.png"
-    sub-modules: ["Overview", "Tidying Data", "Cleaning Data", "Constructing Indicators","Quiz", "Optional Activity"]
+    sub_modules: 
+      "Overview":
+      "Tidying Data":
+        youtube: "https://www.youtube.com/embed/Ogd3zhuhEu8?si=Of9V3T6JQV82mhSm"
+        slide: "https://osf.io/6zr5b"
+      "Cleaning Data":
+        side: "https://osf.io/6tqr4"
+        youtube: 'https://www.youtube.com/embed/uuRiKwn01AY?si=Wy8WMLa2JFX9EO0d'
+      "Constructing Indicators":
+        slide: "https://osf.io/wmqsn"
+        youtube: 'https://www.youtube.com/embed/MWRo4poeqfY?si=4rmRBN2J3sChWZQF'
+      "Quiz":
+      "Optional Activity":
   module3:
     title: "ANALYZE DATA EFFICIENTLY & TRANSPARENTLY"
     index: 3
     img: "img/module-3.png"
-    sub-modules: ["Overview","Analyzing Data", "Best Practices for Reproducible Outputs","Quiz","Optional Activity"]
+    sub_modules: 
+      "Overview": 
+      "Analyzing Data": 
+        youtube: "https://www.youtube.com/embed/BDsdTDn5eHE?si=MtIefMuSSuc9H6Bs"
+        slide: "https://osf.io/rybjx"
+      "Best Practices for Reproducible Outputs":
+        youtube: "https://www.youtube.com/embed/wBIXAZTsiyU?si=zSgXVjJtSM32zzKz"
+        slide: "https://osf.io/ehsc5"
+      "Quiz":
+      "Optional Activity":
   module4:
     title: 'MOVING BEYOND BASICS: ADVANCED CONCEPTS AND PRACTICAL APPLICATIONS'
     index: 4
     img: "img/module-4.png"
-    sub-modules: ["Overview","Ensuring Data Quality", "Special Considerations for Administrative Data", "Closing and analytics resources", "Quiz", "Optional Activity"]
+    sub_modules:
+      "Overview":
+      "Ensuring Data Quality":
+        youtube: "https://www.youtube.com/embed/JOoAQbL-U2s?si=3_HVQ_mDPj9p36aK"
+        slide: "https://osf.io/qm9us"
+      "Special Considerations for Administrative Data":
+        slide: "https://osf.io/53dw4"
+        youtube: "https://www.youtube.com/embed/en41J9y2uTA?si=iHaXrLx0fv2v_1xY"
+      "Quiz":
+      "Optional Activity":
   epilogue:
     title: "Live Closing Session"
     url: "live_session.html"
@@ -105,7 +111,13 @@ announcements:
       end_datetime: "2023/11/29, 9:00 AM"
       content: "Baseline knowledge test is due by 29th Nov 9:00am (ET) "
       link_name: "Quiz Link"
-      link: *baseline
+      link: *baseline      
+    endline_test:
+        start_datetime: "2023/11/30"
+        end_datetime: "2023/12/13:11:59"
+        content: "Endline knowledge test is due by 13rd Dec 11:59pm (ET) "
+        link_name:  "Quiz Link"
+        link: *endline
     open_session:
         start_datetime: "2023/11/8, 11:59 PM"
         end_datetime:   "2023/11/29, 10:30 PM"

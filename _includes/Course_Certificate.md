@@ -16,7 +16,7 @@ In order to successfully complete the course and receive a course certificate, y
 
     </li>
     <li>
-        Complete the course endline knowledge test by  <b> 13 December 2023 at 11:59 PM ET/GMT </b>.
+        Complete the course <a href="{{site.data.course.Quizzes["endline"].url}}">endline knowledge test</a> by  <b> 13 December 2023 at 11:59 PM ET/GMT </b>.
     </li>
 </ul>
 
