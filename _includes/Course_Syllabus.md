@@ -1,10 +1,10 @@
-<div class="syllabus">
-        <div class="LiveSession">
+<!-- <div class="syllabus">
+         <div class="LiveSession">
          <a href="{{ site.baseurl }}/Opening/index.html">
             <img src="{{ site.baseurl }}/img/opening.png">
            <b> OPENING SESSION </b><br/></a>
         </div>
-</div>
+</div> -->
 <div class="module_container">
         {% for module in site.data.course.modules%}
         {% assign agenda =site.data.course.agenda[module]%}
@@ -34,11 +34,11 @@
         </div>
         {% endfor %}
 </div>
-<div class="syllabus">
+<!-- <div class="syllabus">
         <div class="LiveSession">     
             <a href="{{ site.baseurl }}/Closing/index.html">
             <img src="{{ site.baseurl }}/img/closing.png">
                 <b> CLOSING SESSION </b><br/>
                 </a>
         </div>
-</div>
+</div> -->
