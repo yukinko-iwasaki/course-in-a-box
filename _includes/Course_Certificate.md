@@ -2,7 +2,7 @@ In order to successfully complete the course and receive a course certificate, y
 <ul class="square List">
 
     <li>
-        Complete the course baseline knowledge test by <b> 29 December 2023 at 11:59 PM ET/GMT </b>
+        Complete the course baseline knowledge test by <b> 29 December 2023 at 9:00 AM ET/GMT </b>
     </li>
     <li>
          Complete all 4 module quizzes by <b> 13 December 2023 at 11:59 PM ET/GMT </b> with an average score of 80% across all quizzes.

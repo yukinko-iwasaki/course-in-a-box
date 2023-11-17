@@ -31,8 +31,8 @@ function addAnnouncement(){
     const ANNOUNCEMENTS = {
         baseline_test:{
             start_datetime: "2023/11/8, 11:59 PM",
-            end_datetime: "2023/11/29, 11:59 PM",
-            content: "Baseline knowledge test is due by 29th Nov 11:59pm (ET)"
+            end_datetime: "2023/11/29, 9:00 AM",
+            content: "Baseline knowledge test is due by 29th Nov 9:00am (ET)"
         },
         open_session:{
             start_datetime: "2023/11/8, 11:59 PM",
@@ -41,23 +41,23 @@ function addAnnouncement(){
         },
         office_hour1:{
             start_datetime: "2023/11/8, 11:59 PM",
-            end_datetime: "2023/11/30, 11:30 PM",
+            end_datetime: "2023/11/30, 10:30 AM",
             content: "Admin office hours 30th Nov from 9:30am to 10:30am (ET)"
         },
         office_hour2:{
             start_datetime: "2023/12/5, 11:59 PM",
-            end_datetime: "2023/12/6, 11:59 PM",
-            content: "Technical office hours 6th Dec from 9:30am to 10:30am"
+            end_datetime: "2023/12/6, 10:30 AM",
+            content: "Technical office hours 6th Dec from 9:30am to 10:30am (ET)"
         },
         closing_session:{
-            start_datetime: "2023/12/10, 11:59 PM",
-            end_datetime: "2023/12/13, 11:59 PM",
-            content: "Live closing session 13th Dec from 9:30am to 10:30am"
+            start_datetime: "2023/12/06, 11:59 PM",
+            end_datetime: "2023/12/13, 10:30 AM",
+            content: "Live closing session 13th Dec from 9:30am to 10:30am (ET)"
         },
         quizzes:{
             start_datetime: "2023/11/8",
             end_datetime: "2023/12/13",
-            content: "All quizzes are due 13 December, 11pm (EST) "
+            content: "All quizzes are due 13 December, 11pm (ET) "
         }
     }
     const announceElement = document.getElementsByClassName("announcement");
