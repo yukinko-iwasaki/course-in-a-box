@@ -60,7 +60,7 @@ The course is organized by 5 modules with a number of topics within each module.
 
 You will need your participant ID to take the quizzes, if you do not remember it, you can use this form to find it. 
 
-You can track your progress through this tracking sheet.
+You can track your progress through this <a href="https://docs.google.com/spreadsheets/d/1wK2k4bGN4Gt5cAQAPDeB2Du_xpRNbA3-SjcgPZYXUDQ/edit#gid=1137564209">tracking sheet.</a>
 
 ## Course Requirements
 In order to successfully complete the course and receive a course certificate, you need to fulfil the following requirements:

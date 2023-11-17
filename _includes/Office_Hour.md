@@ -2,17 +2,13 @@
 We will be hosting drop-in office hours for anyone who has any questions about the course materials or anyone who needs any assistance with the course content.
 <br/>
 <br/>
-<b> AdministrativeOffice Hour</b>
+<b> ADMINISTRATIVE OFFICE HOUR</b>
 <br/>
-30th November 2023,  9:30-10:30AM ET/GMT
-<br/>
-Do we have a link for the office hour?
-<br/>
-<br/>
-<b> Office Hour 2</b>
-<br/>
-6th December 2023,  9:30-10:30AM ET/GMT
-<br/>
-Do we have a link for the office hour?
+Starts at <b>November 30 2023,  9:30am -10:30am(ET) </b> </br> 
+Join from the  <a target="_blank" href={{site.data.course.LiveSessions.admin_office_hour.link}}>link</a><br/>
 
-</div>
+<br/>
+<b>TECHNICAL OFFICE HOUR</b>
+<br/>
+Starts at <b>December 6 2023,  9:30am - 10:30am (ET)</b></br>
+Join from the <a target="_blank" href={{site.data.course.LiveSessions.tech_office_hour.link}}>link</a><br/>
