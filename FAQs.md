@@ -32,7 +32,7 @@ You can find connection details on the course website here. Recordings for the o
 To receive a Certificate of Completion, participants must meet the following requirements: 
 - Complete the course <a href="https://survey.wb.surveycto.com/collect/login.html?nextUrl=%2Fcollect%2Fbaseline_rrf23" target="_blank" >baseline knowledge assessment </a> before engaging with materials and related quizzes, before <b>December 13th</b> at 11:59 PM ET (GMT-5) 
 - Complete all 3 module quizzes by <b>December 13th</b>, at 11:59 PM Eastern Time (GMT-5) with an average score of 80% across all quizzes. 
-- Complete the course endline knowledge assessment </a> after completing all 3 module quizzes, by <b>December 13th</b> at 11:59 PM Eastern Time (GMT-5) 
+- Complete the course endline knowledge assessment after completing all 3 module quizzes, by <b>December 13th</b> at 11:59 PM Eastern Time (GMT-5) 
 <br/>You can track your status of completion on the <a href="https://docs.google.com/spreadsheets/d/1wK2k4bGN4Gt5cAQAPDeB2Du_xpRNbA3-SjcgPZYXUDQ/edit#gid=1137564209" target='_blank'>course completion tracker </a>.  
 
 6. <b>What information do I need to take the knowledge tests and quizzes? </b><br/>

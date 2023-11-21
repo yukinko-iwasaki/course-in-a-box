@@ -1,6 +1,6 @@
 title: "rrf-course"
 description: ""
-modules: [ module1, module2, module3, module4]
+modules: [ module1, module2, module3, moving_beyond]
 rightNav: [ HOME, FAQs]
 
 
@@ -13,7 +13,7 @@ Quizzes:
     url: "https://survey.wb.surveycto.com/collect/rrf23_m2_quiz?caseid="
   module3:
     url: "https://survey.wb.surveycto.com/collect/rrf23_m3_quiz?caseid="
-  module4:
+  moving_beyond:
     url: "https://survey.wb.surveycto.com/collect/rrf23_m4_quiz?caseid="
   endline: 
     url: &endline "https://survey.wb.surveycto.com/collect/endline_rrf23?caseid="
@@ -37,14 +37,16 @@ agenda:
       "Statistical Programming 101": 
         slide: "https://osf.io/jnurw"
         youtube: "https://www.youtube.com/embed/voBCFp1hIzs?si=aX_ru_ZdHyAHZDJN"
+        reading: "https://osf.io/vjkzp"
       "Structuring Data Work Effectively & Efficiently":
         slide: "https://osf.io/nrazx"
         youtube: "https://www.youtube.com/embed/swG8GD2s4Oo?si=4xwwvkQ1DzaRHRAy"
+        reading: "https://osf.io/pa8y5"
       "Handling personal data safely":
         slide: "https://osf.io/drpy3"
         youtube: https://www.youtube.com/embed/IgA0B5wkiFo?si=-l-6xaSNljRtJVhk
+        reading: "https://osf.io/7p49v"
       "Quiz":
-      "Optional Activity":
   module2:
     title: "SET UP DATA FOR REPRODUCIBLE ANALYTICS"
     index: 2 
@@ -54,14 +56,16 @@ agenda:
       "Tidying Data":
         youtube: "https://www.youtube.com/embed/Ogd3zhuhEu8?si=Of9V3T6JQV82mhSm"
         slide: "https://osf.io/6zr5b"
+        reading: "https://osf.io/des6c"
       "Cleaning Data":
         slide: "https://osf.io/6tqr4"
         youtube: 'https://www.youtube.com/embed/uuRiKwn01AY?si=Wy8WMLa2JFX9EO0d'
+        reading: "https://osf.io/dpbzt"
       "Constructing Indicators":
         slide: "https://osf.io/wmqsn"
         youtube: 'https://www.youtube.com/embed/MWRo4poeqfY?si=4rmRBN2J3sChWZQF'
+        reading: "https://osf.io/yeqbu"
       "Quiz":
-      "Optional Activity":
   module3:
     title: "ANALYZE DATA EFFICIENTLY & TRANSPARENTLY"
     index: 3
@@ -69,27 +73,28 @@ agenda:
     sub_modules: 
       "Overview": 
       "Analyzing Data": 
+        reading: "https://osf.io/e7vwa"
         youtube: "https://www.youtube.com/embed/BDsdTDn5eHE?si=MtIefMuSSuc9H6Bs"
         slide: "https://osf.io/rybjx"
       "Best Practices for Reproducible Outputs":
         youtube: "https://www.youtube.com/embed/wBIXAZTsiyU?si=zSgXVjJtSM32zzKz"
         slide: "https://osf.io/ehsc5"
+        reading: "https://osf.io/b3fxs"
       "Quiz":
-      "Optional Activity":
-  module4:
+  moving_beyond:
     title: 'MOVING BEYOND BASICS: ADVANCED CONCEPTS AND PRACTICAL APPLICATIONS'
     index: 4
     img: "img/module-4.png"
     sub_modules:
       "Overview":
-      "Ensuring Data Quality":
+      "Additional Lecture: Ensuring Data Quality":
         youtube: "https://www.youtube.com/embed/JOoAQbL-U2s?si=3_HVQ_mDPj9p36aK"
         slide: "https://osf.io/qm9us"
-      "Special Considerations for Administrative Data":
+      "Additional Lecture: Special Considerations for Administrative Data":
         slide: "https://osf.io/53dw4"
         youtube: "https://www.youtube.com/embed/en41J9y2uTA?si=iHaXrLx0fv2v_1xY"
       "Quiz":
-      "Optional Activity":
+      "Hands on application using R or Stata":
   epilogue:
     title: "Live Closing Session"
     url: "live_session.html"
@@ -106,12 +111,6 @@ LiveSessions:
     link: &closing_session_link "https://worldbankgroup.webex.com/worldbankgroup/j.php?MTID=m3f2f55f1543115c378ea3489d7bf6263"
 
 announcements:
-    baseline_test:
-      start_datetime: "2023/11/8, 11:59 PM"
-      end_datetime: "2023/11/29, 9:00 AM"
-      content: "Baseline knowledge test is due by 29th Nov 9:00am (ET) "
-      link_name: "Quiz Link"
-      link: *baseline      
     endline_test:
         start_datetime: "2023/11/30"
         end_datetime: "2023/12/13:11:59"
@@ -145,4 +144,4 @@ announcements:
     quizzes:
         start_datetime: "2023/11/8"
         end_datetime: "2023/12/13"
-        content: "All quizzes are due 13 December, 11pm (ET) "
+        content: "Baseline test, quizzes and endline test are all due 13 December, 11pm (ET) "

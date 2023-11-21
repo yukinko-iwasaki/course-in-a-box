@@ -17,7 +17,14 @@
             <div class = "description">
                 <a href="{{ site.baseurl }}{{ first_post.url }}">
                     <img src="{{ site.baseurl }}/{{agenda.img}}">
-                    <div class="module_title"><b>Module {{agenda.index}}</b> <br/><b>{{agenda.title}} </b><br/> </div></a>
+                    <div class="module_title">
+                    {% if module contains "module" %}
+                    <b>Module {{agenda.index}}</b> <br/><b>{{agenda.title}} </b><br/>
+                    {% else %}
+                    <b>(OPTIONAL)</b> <br/><b>{{agenda.title}} </b><br/> 
+                    {% endif %}
+                    </div>
+                </a>
                 <ul class="square">
                     {% for sub_module in agenda.sub_modules %}
                         {% if forloop.last == true %}
