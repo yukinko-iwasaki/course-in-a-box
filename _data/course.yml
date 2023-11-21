@@ -93,7 +93,6 @@ agenda:
       "Additional Lecture: Special Considerations for Administrative Data":
         slide: "https://osf.io/53dw4"
         youtube: "https://www.youtube.com/embed/en41J9y2uTA?si=iHaXrLx0fv2v_1xY"
-      "Quiz":
       "Hands on application using R or Stata":
   epilogue:
     title: "Live Closing Session"
@@ -120,14 +119,14 @@ announcements:
     open_session:
         start_datetime: "2023/11/8, 11:59 PM"
         end_datetime:   "2023/11/29, 10:30 PM"
-        content: "Live opening session 29th Nov from 9:30am to 10:30am (ET)"
-        link_name: "Webex Link"
+        content: "Live opening session on 29th Nov from 9:30am to 10:30am (ET)"
+        link_name: "Connection Link"
         link: *open_session_link
     office_hour1:
         start_datetime: "2023/11/8, 11:59 PM"
         end_datetime: "2023/11/30, 10:30 AM"
-        content: "Admin office hours 30th Nov from 9:30am to 10:30am (ET)"
-        link_name: "Webex Link"
+        content: "Admin office hours on 30th Nov from 9:30am to 10:30am (ET)"
+        link_name: "Connection Link"
         link: *admin_office_link
     office_hour2:
         start_datetime: "2023/12/5, 11:59 PM"
@@ -144,4 +143,4 @@ announcements:
     quizzes:
         start_datetime: "2023/11/8"
         end_datetime: "2023/12/13"
-        content: "Baseline test, quizzes and endline test are all due 13 December, 11pm (ET) "
+        content: "Baseline test, quizzes and endline test are all due 13th December, 11.59pm (ET)"

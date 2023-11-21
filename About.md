@@ -8,7 +8,19 @@ Development Impact (DIME) is a department of the World Bank's Development Econom
 <br/>
 DIME Analytics is a centralized team within DIME that develops and ensures adoption of high-quality research practices across DIME’s large global portfolio. DIME Analytics takes advantage of the concentration and scale of research at DIME to identify constraints and inefficiencies in the research production cycle and develop and iteratively test solution.
 
-<h2> Who we are </h2>
+<h4 >Website</h4>
+<a href="https://www.worldbank.org/en/research/dime/data-and-analytics">Learn More</a>
+
+<h4> Contact Us </h4>
+<b>Email: </b>
+<a href="mailto:dime_courses@worldbank.org">dime_courses@worldbank.org</a>
+
+<b> Slack Channel: </b>
+<a href="https://join.slack.com/t/rrf2023/shared_invite/zt-27by6ujt0-EdeNPolteXBRrffgrg8TZA">Course Slack Channel</a>
+
+
+
+<h2> Who We Are </h2>
 
 <b>Maria Ruth Jones</b><br/>
 <i>Senior Economist & Team Lead, DIME Analytics</i><br/>
@@ -53,14 +65,4 @@ Thiago is an Economist at the Development Impact Evaluation (DIME) department at
 <b>Nupur Savani</b><br/>
 <i>Program Coordinator, DIME Analytics</i><br/>
 Nupur Savani is a Program Coordinator at the World Bank in the Development Impact Evaluation (DIME) department. At DIME, Nupur coordinates program activities and operations for DIME Analytics, a team supporting data quality and knowledge sharing at DIME. She also supports the Knowledge Management and Communications team at DIME. She has a Bachelor’s degree in International Affairs with specializations in International Development and Africa from the George Washington University.
-
-<h4 >Website</h4>
-<a href="https://www.worldbank.org/en/research/dime/data-and-analytics">Learn More</a>
-
-<h4> Contact Us </h4>
-<b>Email: </b>
-<a href="mailto:dime_courses@worldbank.org">dime_courses@worldbank.org</a>
-
-<b> Slack Channel: </b>
-<a href="https://join.slack.com/t/rrf2023/shared_invite/zt-27by6ujt0-EdeNPolteXBRrffgrg8TZA">Course Slack Channel</a>
 

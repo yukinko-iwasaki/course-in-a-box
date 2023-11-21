@@ -27,14 +27,10 @@
                 </a>
                 <ul class="square">
                     {% for sub_module in agenda.sub_modules %}
-                        {% if forloop.last == true %}
-                            {% continue %}
-                        {% else %} 
-                            {% assign post = site.categories[module][forloop.rindex0 ] %}
-                                <a href="{{ site.baseurl }}{{ post.url }}">
-                                    <li>{{sub_module[0]}} </li>
-                                </a>
-                        <!-- {% endif %} -->
+                        {% assign post = site.categories[module][forloop.rindex0 ] %}
+                            <a href="{{ site.baseurl }}{{ post.url }}">
+                                <li>{{sub_module[0]}} </li>
+                            </a>
                     {% endfor %}
                 </ul>
             </div>
