@@ -10,12 +10,12 @@ RRF 2023 is a virtual, self-paced course that covers best practices for reproduc
  
 
 2. <b>What is the time commitment required to complete this course? </b><br/>
-While the course is self-paced, we anticipate a total time commitment of 20-25 hours for the course over two (2) weeks. Note that individual time requirements may vary based on level of experience and familiarity with the subject matter. Participants who complete all course requirements will receive a Certificate of Completion. 
+While the course is self-paced, we anticipate a total time commitment of 15-20 hours for the course over two (2) weeks. Note that individual time requirements may vary based on level of experience and familiarity with the subject matter. Participants who complete all course requirements will receive a Certificate of Completion. 
 
  
 
 3. <b>What does the course cover, and how do I navigate the course materials?</b> <br/>
-The course is organized into 3 required modules, with each module divided into sub-topics. Each topic has a lecture recording with corresponding slides and optional readings. We suggest you watch the lectures in order of the topics listed in each corresponding tab on the course website <a href="{{ site.baseurl}}/index.html">here</a>.
+The course is organized into 3 required modules, with each module divided into sub-topics. Each topic has a lecture recording with corresponding slides and optional readings. We suggest you watch the lectures in order of the topics listed in each corresponding tab on the course website <a href="{{ site.baseurl}}index.html">here</a>.
 Once you have watched the lecture recordings for all topics in the module, you can proceed to take the module quiz. We recommend taking the module quiz only after completing all the readings and watching all the lectures in the respective module. 
 
  

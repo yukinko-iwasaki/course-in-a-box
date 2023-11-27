@@ -16,11 +16,14 @@ DIME Analytics is a centralized team within DIME that develops and ensures adopt
 <a href="mailto:dime_courses@worldbank.org">dime_courses@worldbank.org</a>
 
 <b> Slack Channel: </b>
-<a href="https://join.slack.com/t/rrf2023/shared_invite/zt-27by6ujt0-EdeNPolteXBRrffgrg8TZA">Course Slack Channel</a>
+<a href="https://join.slack.com/t/rrf2023/shared_invite/zt-27by6ujt0-EdeNPolteXBRrffgrg8TZA">Course Slack Workspace</a>
 
 
-
-<h2> Who We Are </h2>
+<br/>
+<h3> Who We Are - Speaker and Organizers </h3>
+<b>Arianna Legovini</b><br/>
+<i>Director, DIME</i><br/>
+Arianna Legovini is founder and head of the Development Impact Evaluation (DIME) Department of the World Bank. She established this group in 2009 creating a model of collaboration between economic development research and practice to optimize the returns to development finance and build governments capacity for data and evidence-informed country policies.
 
 <b>Maria Ruth Jones</b><br/>
 <i>Senior Economist & Team Lead, DIME Analytics</i><br/>
@@ -66,3 +69,6 @@ Thiago is an Economist at the Development Impact Evaluation (DIME) department at
 <i>Program Coordinator, DIME Analytics</i><br/>
 Nupur Savani is a Program Coordinator at the World Bank in the Development Impact Evaluation (DIME) department. At DIME, Nupur coordinates program activities and operations for DIME Analytics, a team supporting data quality and knowledge sharing at DIME. She also supports the Knowledge Management and Communications team at DIME. She has a Bachelor’s degree in International Affairs with specializations in International Development and Africa from the George Washington University.
 
+<b>Sylvie Mahoro</b><br/>
+<i>Program Assistant, DIME Analytics</i><br/>
+Sylvie Mahoro is the Program Assistant at the Development Impact Evaluation (DIME) department at the World Bank. Sylvie organizes all of DIME’s training activities such as DIME analytics flagship courses, Continuing Education sessions and the Measuring Development conference. She also plays a key role in supporting the onboarding of new hires at DIME. Sylvie holds a Bachelor’s degree in Political Science with a Five-college Certificate of International Relations from Amherst College. 
