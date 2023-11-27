@@ -87,10 +87,10 @@ agenda:
     img: "img/module-4.png"
     sub_modules:
       "Overview":
-      "Additional Lecture: Ensuring Data Quality":
+      "Ensuring Data Quality":
         youtube: "https://www.youtube.com/embed/JOoAQbL-U2s?si=3_HVQ_mDPj9p36aK"
         slide: "https://osf.io/qm9us"
-      "Additional Lecture: Special Considerations for Administrative Data":
+      "Special Considerations for Administrative Data":
         slide: "https://osf.io/53dw4"
         youtube: "https://www.youtube.com/embed/en41J9y2uTA?si=iHaXrLx0fv2v_1xY"
       "Hands on application using R or Stata":
