@@ -6,7 +6,7 @@ rightNav: [ HOME, FAQs]
 
 Quizzes:
   baseline:
-    url: &baseline "https://survey.wb.surveycto.com/collect/login.html?nextUrl=%2Fcollect%2Fbaseline_rrf23"
+    url: &baseline "https://survey.wb.surveycto.com/collect/baseline_rrf23"
   module1:
     url: "https://survey.wb.surveycto.com/collect/rrf23_m1_quiz?caseid="
   module2:
