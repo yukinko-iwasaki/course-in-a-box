@@ -80,6 +80,9 @@ agenda:
         youtube: "https://www.youtube.com/embed/wBIXAZTsiyU?si=zSgXVjJtSM32zzKz"
         slide: "https://osf.io/ehsc5"
         reading: "https://osf.io/b3fxs"
+      "Creating a Reproducibiloity Package":
+        slide: "https://osf.io/xuszy/"
+        reading: "https://osf.io/yn8hc"
       "Quiz":
   moving_beyond:
     title: 'MOVING BEYOND BASICS: ADVANCED CONCEPTS AND PRACTICAL APPLICATIONS'
